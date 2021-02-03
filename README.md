@@ -6,6 +6,8 @@ This project was carried out along with my classmate Ankit Verma.
 This repository contains information to run a racecar using Simple Lane keeping Algorithm in a Yellow single lane track. Lane-Keeping algorithm dictates the vehicle to detect the lanes and maintain the vehicle inside this lane seen by the sensor data. For Control, PID algorithm is implimented. Simulator is made using ROS/Gazebo. The simulation has been tested on and works well in Ubuntu 16.04 with ROS Kinetic installed.
 
 # Requirements and Dependencies
+Sumulation used for this project is mlab-upenn/f1_10_sim link:https://github.com/mlab-upenn/f1_10_sim
+Following are dependencies need to be installed before building the package
 ```sh
   - sudo apt-get install ros-kinetic-ros-control 
   - sudo apt-get install ros-kinetic-gazebo-ros-control 
